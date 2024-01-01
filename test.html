@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>test file</title>
+    <link rel="stylesheet" href="/test.css" />
+  </head>
+  <body>
+    <div class="calculator">
+      <h2>calculator</h2>
+      <div class="value1">
+        <label> Value1</label>
+        <input type="number" placeholder="Enter the value" id="val1" />
+      </div>
+      <div class="value2">
+        <label>value2</label>
+        <input type="number" placeholder="Enter the value" id="val2" />
+      </div>
+
+      <label>choose the operator</label>
+      <div>
+        <input type="button" value="+" onclick="calculate('+')" />
+        <input type="button" value="-" onclick="calculate('-')" />
+        <input type="button" value="*" onclick="calculate('*')" />
+        <input type="button" value="/" onclick="calculate('/')" />
+      </div>
+      <div class="result" id="resultdiv"></div>
+    </div>
+  </body>
+  <script src="/test.js"></script>
+</html>
